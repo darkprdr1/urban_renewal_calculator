@@ -1,0 +1,32 @@
+{
+  "description": "新北市都市更新共同負擔成本參數設定",
+  "version": "1.0.0",
+  "base_construction_costs": {
+    "rc_low_rise": {
+      "description": "RC造低層建築（1-5層）",
+      "unit_cost": 180000,
+      "unit": "元/坪"
+    },
+    "rc_mid_rise": {
+      "description": "RC造中層建築（6-15層）",
+      "unit_cost": 200000,
+      "unit": "元/坪"
+    }
+  },
+  "fee_rates": {
+    "design_supervision_rate": {
+      "min": 0.08,
+      "max": 0.15,
+      "default": 0.10
+    },
+    "finance_rate": {
+      "min": 0.02,
+      "max": 0.08,
+      "default": 0.03
+    }
+  },
+  "disaster_prevention_bonus": {
+    "original_far_multiplier": 1.5,
+    "description": "防災型都更2.0原建築容積1.5倍獎勵"
+  }
+}

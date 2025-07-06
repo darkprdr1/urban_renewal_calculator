@@ -1,0 +1,18 @@
+urban_renewal_calculator/
+├── app.py                          # 主程式
+├── requirements.txt                # 依賴套件
+├── README.md                       # 專案說明
+├── data/
+│   ├── cases_batch.csv            # 多案例範例
+│   └── cost_parameters.json       # 成本參數
+├── modules/
+│   ├── __init__.py
+│   ├── input_handler.py           # 輸入處理
+│   ├── volume_calculator.py       # 容積計算
+│   ├── cost_calculator.py         # 成本計算
+│   ├── allocation_calculator.py   # 分配計算
+│   ├── sensitivity_analyzer.py    # 敏感度分析
+│   ├── visualizer.py              # 視覺化
+│   └── batch_comparator.py        # 多案例比對
+└── docs/
+    └── deployment_guide.md        # 部署指南
